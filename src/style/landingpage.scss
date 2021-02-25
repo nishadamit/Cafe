@@ -1,0 +1,39 @@
+@import "./variable";
+
+.header {
+   background-image: url('../assests/header_background.svg');
+
+ p{
+    margin: 0px;
+ }
+ .logo-heading{
+     font-size: 1rem;
+     color: $logo_text;
+ }
+ .navbar-nav{
+
+ }
+ .heading-link{
+     color: white !important;
+     font-size: 1.2rem;
+     margin: 0px 2vw 0px 0px;
+ }
+ .landing-header-main{
+     padding: 4% 0px 4% 0px;
+ }
+ .landing-paragraph{
+     padding-top: 2%;
+ }
+ .landing-header-paragraph{
+     color: white;
+     margin: 0px;
+     font-size: 2.3rem;
+     font-weight: 700;
+ }
+ .landing-header-paragraph2{
+     color: white;
+ }
+ .landing-image{
+     width: 80%;
+ }
+}
