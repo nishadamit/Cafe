@@ -3,23 +3,34 @@
 .header {
    background-image: url('../assests/header_background.svg');
 
- p{
-    margin: 0px;
- }
  .logo-heading{
      font-size: 1rem;
      color: $logo_text;
- }
- .navbar-nav{
-
  }
  .heading-link{
      color: white !important;
      font-size: 1.2rem;
      margin: 0px 2vw 0px 0px;
  }
+ .navbar-signUp-button {
+     color: $logo_text;
+     background-color: white;
+     font-size: 1.2rem;
+     font-weight: 700;
+     line-height: 21px;
+     padding: 11px 27px;
+     border-radius: 50px;
+ }
+ .landing-header-getstarted{
+     background-color: white;
+     color: black;
+     border-color: white;
+     border-radius: 50px;
+     font-weight: 700;
+     padding: 12px 21px;
+ }
  .landing-header-main{
-     padding: 4% 0px 4% 0px;
+     padding: 5% 0px 8% 0px;
  }
  .landing-paragraph{
      padding-top: 2%;
@@ -29,11 +40,54 @@
      margin: 0px;
      font-size: 2.3rem;
      font-weight: 700;
+     margin: 0px !important;
+     padding: 0%;
  }
  .landing-header-paragraph2{
      color: white;
  }
  .landing-image{
-     width: 80%;
+     width: 90%;
+     margin-top: 10%;
  }
+}
+
+.meal-list{
+      .meal-list-heading{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+      .feature-heading{
+        font-size: 2.2rem;
+        font-weight: 700;
+        margin-top: 1%;
+      }
+      .mealfeature-card-image{
+          width: 100%;
+          height: 300px;
+          overflow: hidden;
+      }
+      .mealfeature-card-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center;
+      }
+      .meal-benefit-heading{
+            font-size: 2rem;
+      }
+      .meal-benfit-paragraph-container{
+          display: flex;
+          flex-direction: row;
+      }
+      .meal-benfit-paragraph{
+          margin:0px;
+          margin-left: 1%;
+      }
+}
+
+.text-center{
+    text-align: center;
 }
