@@ -35,7 +35,7 @@
  .landing-paragraph{
      padding-top: 2%;
  }
- .landing-header-paragraph{
+ .landing-header-paragraph p{
      color: white;
      margin: 0px;
      font-size: 2.3rem;
@@ -43,8 +43,10 @@
      margin: 0px !important;
      padding: 0%;
  }
- .landing-header-paragraph2{
+ .landing-header-paragraph2 p{
      color: white;
+       margin: 0px !important;
+     padding: 0%;
  }
  .landing-image{
      width: 90%;
@@ -81,13 +83,94 @@
       .meal-benfit-paragraph-container{
           display: flex;
           flex-direction: row;
+          margin-top: 2%;
+          align-items: flex-start;
       }
+    .meal-benefit-image{
+        width: 100%;
+        height: 300px;
+        overflow: hidden;
+    }
+    .meal-benefit-image img{
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
       .meal-benfit-paragraph{
           margin:0px;
           margin-left: 1%;
       }
+      .meal-benefit-heading{
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: 0.1rem;
+        margin: 0px;
+      }
+      .meal-benefit-subscribe-button{
+        border-radius: 50px;
+        background-color: black;
+        font-weight: 700;
+        border-color: black;
+        margin-top: 5%;
+        padding: 8px 14px;
+      }
 }
 
-.text-center{
+.customer-review{
+    background-color: rgb(234, 194, 17);
+    .heading{
+        text-align: center;
+        font-size: 2rem;
+        font-weight: bold;
+
+    }
+    .customer-review-crousel{
+        height: 300px;
+    }
+    .customer-review-box{
+        width: 100%;
+        height: 40%;
+        border: 1px solid grey;
+        background-color: white;
+        border-radius: 10px;
+    }
+    .customer-review-image{
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .customer-review-image img{
+        width: 19%;
+        height: 100%;
+        object-position: center;
+        object-fit: contain;
+    }
+}
+
+.footer li {
+      list-style: none;
+
+}
+.footer li:hover{
+    cursor: pointer;
+}
+.footer h3 {
+    color: $logo_text;
+}
+
+.logo-heading{
+    font-size: 1.2rem;
+    color: $logo_text;
     text-align: center;
 }
+.footer-image img{
+    width: 100%;
+}
+.last-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+

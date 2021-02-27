@@ -1,9 +1,13 @@
 import React from 'react';
 
-export const Paragraph = ({data ,className}) =>{
+export const Paragraph1 = ({data ,className}) =>{
         return(
              <p className={className} >{data}</p>
         )
 }
 
-export default Paragraph;
+export const Paragraph2 = ({data}) =>{
+        return(
+             <p >{data}</p>
+        )
+}

@@ -3,7 +3,7 @@ import '../../style/landingpage.scss'
 import { Navbar ,Nav,Container} from 'react-bootstrap';
 import logo  from '../../assests/logo.svg';
 import Button from '../Common/Button';
-import Paragraph from '../Common/Paragraph';
+import {Paragraph1} from '../Common/Paragraph';
 
 const HeaderNavbar = () =>{
       return(
@@ -11,7 +11,7 @@ const HeaderNavbar = () =>{
                 <Navbar collapseOnSelect expand="lg"  variant="dark" >
                     <Navbar.Brand href="#home">
                         <img src={logo} alt="Logo" />
-                        <Paragraph
+                        <Paragraph1
                                   data="Your Own Personal Chef"
                                   className="logo-heading"
                         />

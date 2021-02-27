@@ -1,6 +1,6 @@
 import React from 'react';
 import {Container,Row,Col,Card } from 'react-bootstrap';
-import Paragraph from '../Common/Paragraph';
+import {Paragraph1} from '../Common/Paragraph';
 import featureIcon from '../../assests/feature_icon.svg';
 import {MEALFEATURELIST } from '../../shared/MealFeatureList';
 
@@ -13,7 +13,7 @@ const MealFeature = () =>{
       <Container className="meal-list" >
           <Row className="mt-5">
               <Col className="meal-list-heading text-center">
-                     <Paragraph
+                     <Paragraph1
                          data="How Zesty Does it's Magic"
                          className="feature-heading"
                      />

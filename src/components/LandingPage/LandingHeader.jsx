@@ -2,7 +2,7 @@ import React from 'react';
 import { Container,Row,Col} from 'react-bootstrap';
 import '../../style/landingpage.scss';
 import lunchBox from '../../assests/lunch_box.svg';
-import Paragraph from '../Common/Paragraph';
+import {Paragraph1,Paragraph2} from '../Common/Paragraph';
 import Button from '../Common/Button';
 
 const LandingHeader = () =>{
@@ -10,42 +10,38 @@ const LandingHeader = () =>{
         <Container>
              <Row className="landing-header-main mr-2 ml-2" >
                  <Col md={7}  className="landing-paragraph" >
-                            <Paragraph
+                    <div className="landing-header-paragraph">
+                           <Paragraph2
                                   data="Personalised fresh home cooked"
-                                  className="landing-header-paragraph"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="food, delivered daily."
-                                  className="landing-header-paragraph"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="Put your meals on Autopilot"
-                                  className="landing-header-paragraph"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="and forget worrying about your next meal."
-                                  className="landing-header-paragraph"
                             />
-                            <Paragraph
+                  </div>
+                   <div className="landing-header-paragraph2 mt-4">
+                            <Paragraph2
                                   data="STARTING FROM AED 60/WEEK."
-                                  className="landing-header-paragraph2 mt-4"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="Save Up To 4 Hours Everyday By Never Having To Cook Again."
-                                  className="landing-header-paragraph2"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="Monthly  Weekly Plans Included!"
-                                  className="landing-header-paragraph2"
                             />
                             <Button 
                                  title="Get Started"
                                  className="landing-header-getstarted"
                             />
-                            <Paragraph
+                            <Paragraph2
                                   data="*NO DELIVERY FEE."
-                                  className="landing-header-paragraph2"
                             />
+                    </div>
                             
 
                   </Col>
