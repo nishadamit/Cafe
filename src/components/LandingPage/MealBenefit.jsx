@@ -6,7 +6,7 @@ import mealBenfitImage1 from '../../assests/mealbenefitimag1.svg';
 import mealBenfitImage2 from '../../assests/mealbenefitimag2.svg';
 import mealBenfitImage3 from '../../assests/mealbenefitimag3.svg';
 import {Paragraph1,Paragraph2} from '../Common/Paragraph';
-import Button from '../Common/Button';
+import {Button1 }from '../Common/Button';
 
 export const MealBenefit = () =>{
     return(
@@ -35,7 +35,7 @@ export const MealBenefit = () =>{
                         <MealBenefitParagraph
                             data="Don't worry about grocery shopping for the right ingredients anymore or cleaning up your dishes after an appetising meal."
                        />
-                       <Button
+                       <Button1
                            title="Subscribe Now"
                            className="meal-benefit-subscribe-button"
                        />
@@ -59,7 +59,7 @@ export const MealBenefit = () =>{
                         <MealBenefitParagraph
                             data="Made fresh and healthy, making sure it's tasty as well as affordable."
                        />
-                       <Button
+                       <Button1
                            title="Get Your Meal Now"
                            className="meal-benefit-subscribe-button"
                        />

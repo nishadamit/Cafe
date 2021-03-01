@@ -3,7 +3,7 @@ import { Container,Row,Col} from 'react-bootstrap';
 import '../../style/landingpage.scss';
 import lunchBox from '../../assests/lunch_box.svg';
 import {Paragraph1,Paragraph2} from '../Common/Paragraph';
-import Button from '../Common/Button';
+import { Button1 } from '../Common/Button';
 
 const LandingHeader = () =>{
     return(
@@ -34,7 +34,7 @@ const LandingHeader = () =>{
                             <Paragraph2
                                   data="Monthly  Weekly Plans Included!"
                             />
-                            <Button 
+                            <Button1 
                                  title="Get Started"
                                  className="landing-header-getstarted"
                             />

@@ -1,0 +1,10 @@
+@import './variable';
+
+.logo-text {
+    font-size: 1.2rem;
+    color: $logo_text;
+    margin: 0px;
+}
+.logo img{
+    width: 15%;
+}
