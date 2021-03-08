@@ -7,6 +7,8 @@ import Heading from '../components/Common/Heading';
 import '../style/LoginPage.scss';
 import {LinkButton} from '../components/Common/Button';
 import { Link1} from '../components/Common/Link';
+import { Paragraph2 } from '../components/Common/Paragraph';
+import { FaFacebook,FaGoogle } from 'react-icons/fa';
 
 export const LoginPage = () =>{
 
@@ -33,13 +35,13 @@ export const LoginPage = () =>{
                         </div>
                    </Col>
                </Row>
-               <Row className="login-form-container" >
+               <Row className="form-container" >
                    <Heading
                           text="Welcome back"
                    />
-                   <div className="login-form">
+                   <div className="form">
                       <InputBox 
-                           className="login-input-box"
+                           className="input-box"
                            Placeholder="Email"
                            name="email"
                            value={allValues.email}
@@ -47,7 +49,7 @@ export const LoginPage = () =>{
                            type="text"
                        />
                        <InputBox 
-                           className="login-input-box"
+                           className="input-box"
                            Placeholder="Password"
                            name="password"
                            value={allValues.password}
@@ -56,11 +58,28 @@ export const LoginPage = () =>{
                        />
                        <LinkButton
                                 title="Login"
-                                className="login-button"
+                                className="button"
                                 href="userdashboard"
                         />
                         <Link1
                            text="Forgot Password ?"
+                        />
+                        <div className="signup">
+                              <Paragraph2
+                                   data="Don't have an account ?"
+                              />
+                            <Link1
+                                text="SignUp Here"
+                            />
+                        </div>
+                        <Paragraph2
+                                   data="OR"
+                        />
+                        <FaFacebook
+                          color="blue"
+                        />
+                        <FaGoogle
+                           color="red"
                         />
                    </div>
                </Row>

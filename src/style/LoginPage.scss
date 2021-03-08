@@ -3,39 +3,59 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.login-form-container{
-    justify-content: center;
-}
-.login-form{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-.login-input-box{
-    width: 35%;
-    border-width: 0px 0px 1px 0px;
-    margin-top: 2%;
-    height: 20px;
-    
-}
-.login-button {
-    width: 35%;
-    margin-top: 2%;
-    background-color: $logo_text;
-    border-color: $logo_text;
-}
-.login-button:hover{
-    border-color: $logo_text;
-    background-color: $logo_text;
+
+        .form-container{
+            justify-content: center;
+
+
+        .form{
+            display: flex;
+            justify-content: center;
+            width: 100%;
+            flex-direction: column;
+            align-items: center;
+
+                .input-box{
+                    width: 35%;
+                    border-width: 0px 0px 1px 0px;
+                    margin-top: 2%;
+                    height: 20px;
+                    
+                }
+                .button {
+                    width: 35%;
+                    margin-top: 2%;
+                    background-color: $logo_text;
+                    border-color: $logo_text;
+                }
+                .button:hover{
+                    border-color: $logo_text;
+                    background-color: $logo_text;
+                }
+
+                .signup{
+                    display: flex;
+                }
+           }
+        }
+
 }
 
+
+
+
 @media screen and (max-width:600px){
-    .login-input-box{
-        width: 90%;
-        border-width: 0px 0px 1px 0px;
-        height: 45px;
+
+.login{
+        .form-container{
+            .form{
+                .input-box{
+                    width: 90%;
+                    border-width: 0px 0px 1px 0px;
+                    height: 45px;
+                }
+            }
+        }
+    
     }
 }

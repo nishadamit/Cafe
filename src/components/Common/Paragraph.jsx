@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../style/common.scss';
 
 export const Paragraph1 = ({data ,className}) =>{
         return(
@@ -8,6 +9,6 @@ export const Paragraph1 = ({data ,className}) =>{
 
 export const Paragraph2 = ({data}) =>{
         return(
-             <p >{data}</p>
+             <p className="para2" >{data}</p>
         )
 }
